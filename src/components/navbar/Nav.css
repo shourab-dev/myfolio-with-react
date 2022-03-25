@@ -1,0 +1,14 @@
+.myNav {
+  background-color: #02918b;
+  padding: 0;
+}
+#myCustomNav{
+    transition: 0.3s ease-in-out;
+}
+#myCustomNav ul li a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 25px 26px;
+}

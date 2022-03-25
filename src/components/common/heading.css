@@ -1,0 +1,24 @@
+.heading h2 {
+  font-size: 46px;
+  font-weight: 800;
+  color: #02918c;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.heading h2::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translatex(-50%);
+  width: 162px;
+  height: 9px;
+  background-image: url(../img/underline.png);
+}
+
+.heading h2.alternate::after {
+  left: 0;
+  transform: translateX(0);
+}

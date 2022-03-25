@@ -1,0 +1,22 @@
+.about_card{
+  border-right:1px solid #ddd ;
+  padding: 30px 10px;
+}
+.about_card:last-child{
+  border: none;
+}
+.about_card span {
+  color: #02918c;
+  font-size: 30px;
+}
+.about_card h4 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #7e8287;
+  margin: 20px 0;
+}
+
+.about_card p{
+    color: #7e8287;
+    font-size: 18px;
+}
